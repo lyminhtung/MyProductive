@@ -1,0 +1,44 @@
+.navbar_container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.navbar_logo_container{
+display: flex;
+align-items: center;
+padding-left: 64px;
+}
+.navbar_logo{
+    height: 49px;
+    width: 45px;
+}
+.navbar_title_logo{
+
+}
+.navbar_date_container{
+    display: block;
+    align-content: center;
+    padding-right: 64px;
+}
+.navbar_date{
+
+}
+.nvabar_time{
+
+}
+h3{
+    font-family: 'Molengo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+p{
+    margin: 0;
+    font-family: 'Mohave';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
