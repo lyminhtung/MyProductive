@@ -1,14 +1,14 @@
 
+import { Dashboard } from '@mui/icons-material'
 import './App.css'
 import Navbar from './components/navbar/Navbar'
-
+import ComponentPage from './pages/ComponentPage'
 function App() {
   return (
     
     <>
     <Navbar/>
-    <div><h1>BoardContent</h1></div>
-    <div><h1>Footer</h1></div>
+    <ComponentPage/>
     </>
   )
 }

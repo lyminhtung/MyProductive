@@ -1,0 +1,18 @@
+@use './variables' as *;
+@use './mixins' as *;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  font-size: $font-size-md;
+  line-height: 1.5;
+  color: $dark-color;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+}

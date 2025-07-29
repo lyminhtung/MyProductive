@@ -1,1 +1,4 @@
-// index scss
+//@forward → tập hợp và xuất lại để nơi khác có thể import một lần duy nhất.
+@forward 'variables';
+@forward 'mixins';
+@forward 'base';
