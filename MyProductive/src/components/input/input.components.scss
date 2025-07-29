@@ -1,0 +1,85 @@
+@use '../../styles/variable.scss' as *;
+@use '../../styles/mixins.scss' as *;
+
+.input {
+  &__wrapper {
+    width: 100%;
+  }
+  
+  &__label {
+    display: block;
+    margin-bottom: $spacing-xs;
+    font-weight: 500;
+    color: $dark-color;
+    font-size: $font-size-sm;
+  }
+  
+  &__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  &__field {
+    @include input-base;
+    
+    &--sm {
+      padding: $spacing-xs $spacing-sm;
+      font-size: $font-size-sm;
+    }
+    
+    &--md {
+      padding: $spacing-sm $spacing-md;
+      font-size: $font-size-md;
+    }
+    
+    &--lg {
+      padding: $spacing-md $spacing-lg;
+      font-size: $font-size-lg;
+    }
+    
+    &--error {
+      border-color: $danger-color;
+      
+      &:focus {
+        border-color: $danger-color;
+        box-shadow: 0 0 0 2px rgba($danger-color, 0.2);
+      }
+    }
+    
+    &--with-left-icon {
+      padding-left: 40px;
+    }
+    
+    &--with-right-icon {
+      padding-right: 40px;
+    }
+  }
+  
+  &__icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: $secondary-color;
+    
+    &--left {
+      left: $spacing-md;
+    }
+    
+    &--right {
+      right: $spacing-md;
+    }
+  }
+  
+  &__error {
+    margin-top: $spacing-xs;
+    font-size: $font-size-sm;
+    color: $danger-color;
+  }
+  
+  &__helper {
+    margin-top: $spacing-xs;
+    font-size: $font-size-sm;
+    color: $secondary-color;
+  }
+}
