@@ -1,5 +1,5 @@
 
-import { Dashboard } from '@mui/icons-material'
+
 import './App.css'
 import Navbar from './components/navbar/Navbar'
 import ComponentPage from './pages/ComponentPage'

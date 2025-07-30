@@ -1,0 +1,8 @@
+export { default as avata02 } from './avarta02.png'
+export { default as avata03 } from './avata03.png'
+export { default as avata04 } from './avata04.png'
+export { default as avata05 } from './avata05.png'
+export { default as avata06 } from './avata06.png'
+export { default as avata07 } from './avata07.png'
+export { default as avata08 } from './avata08.png'
+export { default as avata09 } from './avata09.png'

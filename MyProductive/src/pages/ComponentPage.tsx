@@ -1,5 +1,8 @@
 import Button from "../components/button"
 import Input from "../components/input"
+import Card from "../components/cards/Card"
+import * as Icons from "../assets/icon/index"
+import * as Images from "../assets/img/index"
 const ComponentPage =() =>{
     const UserIcon = () => (
   <svg width="26" height="26" viewBox="0 0 16 16" fill="currentColor">
@@ -44,7 +47,16 @@ const ComponentPage =() =>{
                   leftIcon= {<UserIcon/>}
                 />
                 </div>                
-              </div>                   
+              </div> 
+              <div className="input-group">
+                <h4>Card</h4>
+                 <Card 
+                  title={`Language \nLearners`} 
+                  icon={<img src={Icons.icon01}></img>} 
+                  image={<img src={Images.img01}></img>}
+                  color="#FF7171"
+                  />
+              </div>                            
             </div>
     </>
     )
