@@ -1,0 +1,102 @@
+@use '../../styles/variable.scss' as *;
+.card-container{
+  width: 292px;
+  height: 363px;
+  border-radius: $border-radius;
+  align-content: end;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.05);
+  &-title{
+    white-space: pre-line;
+  }
+  &-box{
+    padding: 0 0 0 40px;
+  }
+  &-image{
+    padding: 0 0 0 20px;
+  }
+
+}
+.card-container-type-01 {
+  width: 280px;
+  height: 287px;
+  border: 1.5px solid #AED0FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  &-title {
+    white-space: pre-line;
+    color: #0D6EFD;
+    font-weight: 700;
+    font-size: 18px; 
+    margin-top: 16px;
+    font-family: $font-family;
+    font-size: 24px;
+  }
+
+  &-box {
+    padding: 30px 0 0 0;
+  }
+
+  &-description {
+    color: $text-color-text; 
+    font-size: 16px;
+    margin-top: 12px;
+    font-family: $font-family;
+    white-space: preserve-spaces;
+  }
+
+  &-image {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &-icon {
+    display: inline-block;
+    font-size: 32px;
+  }
+}
+
+.card-container-type-02 {
+  width: 413px;
+  height: 287px;
+  border: 1.5px solid #AED0FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-title {
+    white-space: pre-line;
+    color: #0D6EFD;
+    font-weight: 700;
+    font-size: 18px; 
+    margin-top: 16px;
+    font-family: $font-family;
+    font-size: 24px;
+  }
+
+  &-box {
+    padding: 30px 0 0 0;
+  }
+
+  &-description {
+    color: $text-color-text; 
+    font-size: 16px;
+    margin-top: 12px;
+    font-family: $font-family;
+    white-space: preserve-spaces;
+  }
+
+  &-image {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &-icon {
+    display: inline-block;
+    font-size: 32px;
+  }
+}
